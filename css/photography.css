@@ -1,0 +1,59 @@
+body {
+    background: repeat url("../assets/photography-background.jpg");
+  }
+  h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+
+  }
+  p {
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  .ui.piled.segment {
+      width:90%;
+      margin:auto;
+      margin-top: 100px;
+  }
+  .pictures-section {
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .row {
+      margin-top: 100px;
+      width:50%;
+      margin:auto;
+  }
+  @media only screen and (max-width: 700px) {
+    .img-thumbnail a img {
+    margin-bottom: 80px; 
+    }
+    .row {
+      width:90%;
+    }
+  }
+  .hide {
+    display:none ;
+  }
+  .img-thumbnail {
+    /*this will save the image ratio and quality*/
+    height:100%;
+  }
+
+.intro-section-wrapper {
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0px 11px 18px lightgrey;
+  }
+  a {
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+a:hover {
+    color:tomato;
+    font-weight: bold;
+}
+.img-thumbnail a img {
+  margin-bottom: 30px;
+}

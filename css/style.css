@@ -1,0 +1,169 @@
+body {
+    background: repeat url("../assets/background.jpg");
+  }
+  body > .intro-text-wrapper {
+    margin-top: 10px;
+    /* box-shadow: 3px 0px 50px; */
+
+  }
+  p {
+    font-family: 'Roboto Condensed', sans-serif;
+
+  }
+  hr {
+    width: 97%;
+  }
+  a {
+      text-decoration: none;
+      color:black;
+      font-size: 20px;
+  }
+  a:hover {
+      color:tomato;
+      font-weight: bold;
+  }
+.my-image > img{
+    margin: auto;
+} 
+.languages-section {
+    margin-top: 60px;
+    width:60%;
+    margin:auto;
+    margin-top: 60px;
+}
+.frameworks-section {
+    margin-top: 60px;
+    width:60%;
+    margin:auto;
+    margin-top: 60px;
+
+}
+.tools-section {
+    width:60%;
+    margin:auto;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.center-text {
+    text-align: center;
+}
+.languages-section div img {
+    width:70px;
+    min-width: 70px;
+    margin:0 30px;
+}
+.frameworks-section div img {
+    width:70px;
+    min-width: 70px;
+    margin:0 30px;
+}
+.tools-section div img {
+    width:70px;
+    min-width: 70px;
+    margin:0 30px;
+}
+.languages-icons-wrapper {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.frameworks-icons-wrapper {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.tools-icons-wrapper {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.row {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+footer{
+    text-align: center;
+    margin:auto;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.social-media-buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact-section {
+    margin-top: 100px;
+    width:60%;
+    margin:auto;
+    padding: 10px;
+}
+.contact-note {
+    margin-top: 20px;
+}
+@media only screen and (max-width: 700px) {
+    .contact-section {
+        width:100%;
+    }
+}
+.map {
+    display:flex;
+    justify-content: center;
+}
+.my-image-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+@media only screen and (max-width: 700px) {
+    .my-image {
+        width:80% !important;
+    }
+}
+.my-image {
+    width:24%;
+    border-radius: 2%;
+}
+.des {
+    margin: 10px 10px;
+}
+.hello-world-text {
+    font-size: 75px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+.hello-world-text:hover {
+    text-decoration: underline;
+}
+.self-intro {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 20px;
+}
+.intro-text-wrapper {
+    background-color: gainsboro;
+}
+.small.menu.fixed {
+    background-color: whitesmoke;
+    margin-bottom: 28px;
+    border-bottom: 1px solid black;
+    padding-bottom: 8px;
+}
+.contact-section {
+    background-color: lightgray;
+}
+input {
+    width:30%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+textarea {
+    width:62%;
+    height: 100px;
+    max-width: 61%;
+}
+
