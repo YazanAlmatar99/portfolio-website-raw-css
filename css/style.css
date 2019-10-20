@@ -4,14 +4,21 @@ body {
   body > .intro-text-wrapper {
     margin-top: 10px;
     /* box-shadow: 3px 0px 50px; */
-
   }
   p {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Monospace';
 
   }
   hr {
     width: 97%;
+  }
+  button {
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+  }
+  button:hover {
+      font-weight: bold;
   }
   a {
       text-decoration: none;
@@ -105,7 +112,7 @@ footer{
 }
 @media only screen and (max-width: 700px) {
     .contact-section {
-        width:100%;
+        width:90%;
     }
 }
 .map {
@@ -136,17 +143,21 @@ footer{
     margin-bottom: 0;
     margin-left: 10px;
 }
-.hello-world-text:hover {
-    text-decoration: underline;
-}
+
 .self-intro {
     margin-left: 10px;
     margin-right: 10px;
     padding-bottom: 20px;
 }
 .intro-text-wrapper {
-    background-color: gainsboro;
+    background:repeat url('../assets/coding-background.png');
+    padding: 50px;
+    border:1px black solid;
+    margin: auto;
+    width: 75%;
 }
+
+
 .small.menu.fixed {
     background-color: whitesmoke;
     margin-bottom: 28px;
@@ -154,7 +165,8 @@ footer{
     padding-bottom: 8px;
 }
 .contact-section {
-    background-color: lightgray;
+    background:repeat url('../assets/coding-background.png');
+    border:1px black solid;
 }
 input {
     width:30%;
